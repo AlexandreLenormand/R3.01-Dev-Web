@@ -5,21 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shifumi</title>
     <script defer src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <header>Shifumi</header>
     <main>
+        <div class="button-container">
         <button class="play">Pierre</button>
         <button class="play">Feuille</button>
         <button class="play">Ciseaux</button>
+    </div>
     </main>
-
-    <section>
-        <p>Gagné</p>
-        <p>Perdu</p>
-        <p>Égalité</p>
-        <button>Rénitialiser le score</button>
+    <section id="resultat-partie"></section>
+    <section id="score">
+        <p id="gagne">0 Gagné</p>
+        <p id="perd">0 Perdu</p>
+        <p id="egal">0 Égalité</p>
+        <button id="renitialiser">Rénitialiser le score</button>
     </section>
     
 </body>

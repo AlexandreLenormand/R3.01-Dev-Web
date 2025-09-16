@@ -1,0 +1,91 @@
+/* Style pour le titre */
+header {
+    text-align: center;
+    font-size: 36px; /* Taille du texte */
+    font-weight: bold;
+    margin: 20px 0;
+    color: #333; /* Couleur du texte */
+  }
+  
+  /* Centrer tout le contenu */
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif; /* Police générale */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Couleur de fond de la page */
+  }
+  
+  /* Section des résultats */
+  #resultat-partie {
+    margin: 20px 0;
+    font-size: 18px;
+    color: #555;
+    text-align: center;
+  }
+  
+  /* Section du score */
+  #score {
+    border: 2px solid #000; /* Bordure noire */
+    padding: 20px;
+    width: 300px; /* Largeur du rectangle */
+    background-color: #fff; /* Fond blanc */
+    border-radius: 10px; /* Coins arrondis */
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Style des paragraphes dans le score */
+  #score p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Rectangle autour du bouton "Rénitialiser le score" */
+  #renitialiser {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid #000;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s;
+  }
+  
+  #renitialiser:hover {
+    background-color: #e0e0e0; /* Couleur au survol */
+  }
+
+  /* Bouton Pierre */
+button.play:nth-child(1) {
+  background-color: #d3d3d3; /* Gris pour Pierre */
+  color: #000; /* Texte noir */
+  border: 2px solid #a9a9a9; /* Bordure gris foncé */
+}
+
+/* Bouton Feuille */
+button.play:nth-child(2) {
+  background-color: #90ee90; /* Vert pour Feuille */
+  color: #000; /* Texte noir */
+  border: 2px solid #32cd32; /* Bordure vert foncé */
+}
+
+/* Bouton Ciseaux */
+button.play:nth-child(3) {
+  background-color: #add8e6; /* Bleu pour Ciseaux */
+  color: #000; /* Texte noir */
+  border: 2px solid #4682b4; /* Bordure bleu foncé */
+}
+
+/* Ajout d'un effet au survol */
+button.play:hover {
+  opacity: 0.9; /* Légère transparence au survol */
+  transform: scale(1.05); /* Légère mise en avant */
+  transition: all 0.3s ease;
+}
+
+
